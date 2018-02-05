@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<configuration>
+
+    <!--<Project name="inspec2">
+
+      <Module name="WIP_Publication">
+
+        <Element type="data" key="TypeID">1</Element>
+        <Element type="data" key="PeriodicalID">40</Element>
+        <Element type="data" key="Title">AWA Technical Review</Element>
+        <Element type="data" key="AbbreviatedTitle">AWA Tech. Rev. (Australia)</Element>
+        <Element type="data" key="Issue"></Element>
+        <Element type="data" key="Coden">AWARA3</Element>
+        <Element type="data" key="PublisherID">1</Element>
+        <Element type="data" key="IssuingCountry">Australia</Element>
+        <Element type="data" key="OriginatedTag"></Element>
+        <Element type="data" key="PublicationControlID"></Element>
+        <Element type="data" key="EventID"></Element>
+        <Element type="data" key="PotentialUsage"></Element>
+        <Element type="data" key="ReviewerComments"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+
+      </Module>
+
+      <Module name="WIP_Edition">
+
+        <Element type="data" key="PublicationID">16628</Element>
+        <Element type="data" key="MediumTypeID">1</Element>
+        <Element type="data" key="Isbn"></Element>
+        <Element type="data" key="Issn">0968-2082</Element>
+        <Element type="data" key="Url"></Element>
+        <Element type="data" key="Bldsc"></Element>
+        <Element type="data" key="SupplierID"></Element>
+        <Element type="data" key="OriginatorTag"></Element>
+        <Element type="data" key="Price"></Element>
+        <Element type="data" key="Availability"></Element>
+        <Element type="data" key="MethodObtained"></Element>
+        <Element type="data" key="UrlIsValid"></Element>
+        <Element type="data" key="UrlLastChecked"></Element>
+        <Element type="data" key="City"></Element>
+        <Element type="data" key="Country"></Element>
+        <Element type="data" key="State"></Element>
+        <Element type="data" key="OddMedium"></Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+        <Element type="data" key="MethodObtainedTypeID">1</Element>
+
+      </Module>
+
+      <Module name="WIP_Volume">
+
+        <Element type="data" key="EditionID">16028</Element>
+        <Element type="data" key="AssignedUserID"></Element>
+        <Element type="data" key="PriorityLevelID"></Element>
+        <Element type="data" key="StatusID">10</Element>
+        <Element type="data" key="SpecialisationTypeID">10</Element>
+        <Element type="data" key="StateID"></Element>
+        <Element type="data" key="ReceivedDate"></Element>
+        <Element type="data" key="Min"></Element>
+        <Element type="data" key="Volume"></Element>
+        <Element type="data" key="Published"></Element>
+        <Element type="data" key="Pagination"></Element>
+        <Element type="data" key="OriginatorTag"></Element>
+        <Element type="data" key="NumSuppliedItems"></Element>
+        <Element type="data" key="NumSelectedItems"></Element>
+        <Element type="data" key="Cccc"></Element>
+        <Element type="data" key="IsPrePublication"></Element>
+        <Element type="data" key="PrimaryVolumeID"></Element>
+        <Element type="data" key="LinkedPublicationName"></Element>
+        <Element type="data" key="IsSummaryRequired"></Element>
+        <Element type="data" key="IsTranslation"></Element>
+        <Element type="data" key="DataOriginatorTypeID"></Element>
+        <Element type="data" key="IsSelectAllItems"></Element>
+        <Element type="data" key="IsRequiredEditingQA"></Element>
+        <Element type="data" key="ExpectedDate"></Element>
+        <Element type="data" key="ForceToStateID"></Element>
+        <Element type="data" key="ExpectedTotalItems"></Element>
+        <Element type="data" key="ExpectedUsableItems"></Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+        <Element type="data" key="IsGUIValidated"></Element>
+        <Element type="data" key="IsBypassEtoc"></Element>
+        <Element type="data" key="isByPassSelection"></Element>
+        <Element type="data" key="AbstractLanguageID"></Element>
+        <Element type="data" key="TargetDate"></Element>
+        <Element type="data" key="BinID"></Element>
+        <Element type="data" key="IsRequiredRegistrationQA"></Element>
+        <Element type="data" key="AssignedUntil"></Element>
+        <Element type="data" key="ItemsEditReviewPer"></Element>
+        <Element type="data" key="ItemsEditReviewCap"></Element>
+        <Element type="data" key="IsRequiredEditingPreview"></Element>
+        <Element type="data" key="RinggoldChecked"></Element>
+
+      </Module>
+
+      <Module name="WIP_Item">
+
+        <Element type="data" key="TypeID">1</Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="">LastModifiedBy</Element>
+        <Element type="data" key="">LastModifiedDate</Element>
+
+      </Module>
+
+      <Module name="WIP_Bundle">
+
+        <Element type="data" key="ReceivedDateTime">GETDATE()</Element>
+        <Element type="data" key="BundleTypeID">1</Element>
+        <Element type="data" key="GUID"></Element>
+        <Element type="data" key="IsActive">1</Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+
+
+      </Module>
+
+      <Module name="WIP_Batch">
+
+        <Element type="data" key="VolumeID">16028</Element>
+        <Element type="data" key="BundleID">6</Element>
+        <Element type="data" key="StateID"></Element>
+        <Element type="data" key="ReceivedDate"></Element>
+        <Element type="data" key="BatchSequence">1</Element>
+        <Element type="data" key="Batch"></Element>
+        <Element type="data" key="OriginatorTag"></Element>
+        <Element type="data" key="BinID"></Element>
+        <Element type="data" key="TargetDate"></Element>
+        <Element type="data" key="AssignedUserID"></Element>
+        <Element type="data" key="AssignedUntil"></Element>
+        <Element type="data" key="ForceToStateID"></Element>
+        <Element type="data" key="IsDeleted"></Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+        <Element type="data" key="IsRequiredCitationSelection"></Element>
+        <Element type="data" key="UserOldOcr"></Element>
+
+      </Module>
+
+      <Module name="WIP_Source">
+
+        <Element type="data" key="ItemID">363</Element>
+        <Element type="data" key="VolumeID">16028</Element>
+        <Element type="data" key="EventID"></Element>
+        <Element type="data" key="ReleaseDate"></Element>
+        <Element type="data" key="Title">Automation Testing</Element>
+        <Element type="data" key="Abstract">In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes</Element>
+        <Element type="data" key="Pages">1</Element>
+        <Element type="data" key="ReferenceCount"></Element>
+        <Element type="data" key="Url"></Element>
+        <Element type="data" key="AccessionNumber"></Element>
+        <Element type="data" key="Sici"></Element>
+        <Element type="data" key="Doi"></Element>
+        <Element type="data" key="Cccc"></Element>
+        <Element type="data" key="Copyright"></Element>
+        <Element type="data" key="OriginatorTag"></Element>
+        <Element type="data" key="AssignedUserID"></Element>
+        <Element type="data" key="IsSelected"></Element>
+        <Element type="data" key="SpecialisationTypeID">10</Element>
+        <Element type="data" key="StateID"></Element>
+        <Element type="data" key="DoilValid"></Element>
+        <Element type="data" key="DoiLastChecked"></Element>
+        <Element type="data" key="UrlIsValid"></Element>
+        <Element type="data" key="UrlLastChecked"></Element>
+        <Element type="data" key="MinItem">A000</Element>
+        <Element type="data" key="PrimarySourceID"></Element>
+        <Element type="data" key="IsRequiredEditingQA"></Element>
+        <Element type="data" key="IsRequiredIndexingQA"></Element>
+        <Element type="data" key="IsMarkedForTraining"></Element>
+        <Element type="data" key="LastModifiedStamp"></Element>
+        <Element type="data" key="LastModifiedBy"></Element>
+        <Element type="data" key="LastModifiedDate"></Element>
+        <Element type="data" key="IsGUIValidatedEdit"></Element>
+        <Element type="data" key="isGUIValidatedIndex"></Element>
+        <Element type="data" key="AbstractLanguageID">1</Element>
+        <Element type="data" key="TitleOnly"></Element>
+        <Element type="data" key="TargetDate"></Element>
+        <Element type="data" key="BinID">9</Element>
+        <Element type="data" key="AssignedUntil"></Element>
+        <Element type="data" key="IsRequiredEditingReview"></Element>
+        <Element type="data" key="BatchID">15693</Element>
+        <Element type="data" key="CitationList"></Element>
+        <Element type="data" key="CitationTemo"></Element>
+        <Element type="data" key="RinggoldChecked"></Element>
+        <Element type="data" key="IsCESAutoIndexingApplied"></Element>
+        <Element type="data" key="ConfidenceRatingMin"></Element>
+        <Element type="data" key="IsQARequired"></Element>
+
+      </Module>
+      
+      
+
+   
+    </Project> -->
+
+</configuration>
