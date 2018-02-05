@@ -1,0 +1,65 @@
+﻿2018-01-31T16:51:14.4531331+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-31T16:51:14.6821462+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-31T16:51:14.6821462+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\automation-manasi\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-31T16:51:14.6831462+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-31T16:51:19.7844380+05:30;Thread#12;Info;Discovering target: Default
+2018-01-31T16:51:19.7854381+05:30;Thread#12;Info;Discovering tests from assembly: D:\automation-manasi\FTC.Test\bin\Debug\FTC.Test.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FTC.Test/Default - 
+#1: Default - 
+#2: FTC.Test - 
+#7: Recruiter onboarding - 
+#8: Editing recruiter on bording - TestAssembly:FTC.Test/Feature:Recruiter+onboarding/Scenario:Editing+recruiter+on+bording
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FTC.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mansi.baokar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:TestItem#8:Scheduler: reschedule tests for testitem #8
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #8/0 is finished on thread #0 as Failed within 0.2040117 seconds
+Thread#0: Test #8/1 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #8/1 is finished on thread #0 as Failed within 0.0230014 seconds
+Thread#0: Test #8/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #8/2 is finished on thread #0 as Failed within 0.0240014 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

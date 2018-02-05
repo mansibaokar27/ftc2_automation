@@ -1,0 +1,459 @@
+﻿2018-01-24T17:42:47.9739467+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-24T17:42:48.0919534+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-24T17:42:48.0929535+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-24T17:42:48.0939535+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-24T17:42:57.2174754+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-24T17:42:57.2184754+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-24T17:43:06.9360312+05:30;VSTestExecutionThread;Info;Log file: file:///D:\workspace\FTC\FTC\TestResults\FTC.Test_Default_2018-01-24T174248.log
+2018-01-24T17:43:06.9370313+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-24T17:51:26.0965816+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-24T17:51:26.1065821+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-24T17:51:26.1075822+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-24T17:51:26.1075822+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-24T17:51:39.1113260+05:30;Thread#19;Info;Discovering target: Default
+2018-01-24T17:51:39.1113260+05:30;Thread#19;Info;Discovering tests from assembly: D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FTC.Test/Default - 
+#1: Default - 
+#2: FTC.Test - 
+#3: Recruiter onboarding - 
+#4: 1. Entering all the madantory fields for recruiter - TestAssembly:FTC.Test/Feature:Recruiter+onboarding/Scenario:1.+Entering+all+the+madantory+fields+for+recruiter
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FTC.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mansi.baokar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario 1. Entering all the madantory fields for recruiter **** started.
+Thread#0:B:When I enter login id as "Marvel@yopmail.com"
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIEnterLoginIdAs("Marvel@yopmail.com") (0.2s)
+Thread#0:B:Then I eneter password as "1234"
+Thread#0:T:done: RecruiterOnboardingSteps.ThenIEneterPasswordAs("1234") (0.1s)
+Thread#0:B:And I click on login button
+Thread#0:T:error: invalid selector: Compound class names not permitted
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:B:Then I select profile option from right side dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the company name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter recruiter name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter email id
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter city
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select "Production House" from Recruiter type dropdwon
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Work experience tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Movies" from Project type dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Project title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the production name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Awards and Recognitions tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award for
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter facebook link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Twitter link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter instagram link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Youtube link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Website link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter IMDB link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Associations tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Association of Cine TV/AD Production Executive" from Association Name dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Association ID
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:And I enter Childhood name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite childhood friend
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite team
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite player
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite movie
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter first job
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:invalid selector: Compound class names not permitted
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+Thread#0:T:   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__0(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+Thread#0:T:   at FTC.Framework.PageObject.PageObjectLogin.ClickLogin() in D:\workspace\FTC\FTC\FTC.Framework\PageObject\PageObjectLogin.cs:line 45
+Thread#0:T:   at FTC.Test.Steps.RecruiterOnboardingSteps.ThenIClickOnLoginButton() in D:\workspace\FTC\FTC\FTC.Test\Steps\RecruiterOnboardingSteps.cs:line 39
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature.ScenarioCleanup()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature._1_EnteringAllTheMadantoryFieldsForRecruiter() in D:\workspace\FTC\FTC\FTC.Test\Features\RecruiterOnboarding.feature:line 47
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 23.655353 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario 1. Entering all the madantory fields for recruiter **** started.
+Thread#0:B:When I enter login id as "Marvel@yopmail.com"
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIEnterLoginIdAs("Marvel@yopmail.com") (0.1s)
+Thread#0:B:Then I eneter password as "1234"
+Thread#0:T:done: RecruiterOnboardingSteps.ThenIEneterPasswordAs("1234") (0.1s)
+Thread#0:B:And I click on login button
+Thread#0:T:error: invalid selector: Compound class names not permitted
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:B:Then I select profile option from right side dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the company name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter recruiter name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter email id
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter city
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select "Production House" from Recruiter type dropdwon
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Work experience tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Movies" from Project type dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Project title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the production name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Awards and Recognitions tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award for
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter facebook link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Twitter link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter instagram link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Youtube link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Website link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter IMDB link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Associations tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Association of Cine TV/AD Production Executive" from Association Name dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Association ID
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:And I enter Childhood name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite childhood friend
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite team
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite player
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite movie
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter first job
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:invalid selector: Compound class names not permitted
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+Thread#0:T:   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__0(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+Thread#0:T:   at FTC.Framework.PageObject.PageObjectLogin.ClickLogin() in D:\workspace\FTC\FTC\FTC.Framework\PageObject\PageObjectLogin.cs:line 45
+Thread#0:T:   at FTC.Test.Steps.RecruiterOnboardingSteps.ThenIClickOnLoginButton() in D:\workspace\FTC\FTC\FTC.Test\Steps\RecruiterOnboardingSteps.cs:line 39
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature.ScenarioCleanup()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature._1_EnteringAllTheMadantoryFieldsForRecruiter() in D:\workspace\FTC\FTC\FTC.Test\Features\RecruiterOnboarding.feature:line 47
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 21.7782457 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario 1. Entering all the madantory fields for recruiter **** started.
+Thread#0:B:When I enter login id as "Marvel@yopmail.com"
+Thread#0:T:error: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:B:Then I eneter password as "1234"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on login button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select profile option from right side dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the company name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter recruiter name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter email id
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter city
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select "Production House" from Recruiter type dropdwon
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Work experience tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Movies" from Project type dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the Project title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the production name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Awards and Recognitions tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award title
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award for
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Award year
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then I click on Add button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter facebook link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Twitter link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter instagram link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Youtube link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Website link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter IMDB link
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button on Social Links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on Add button on Associations tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I select "Association of Cine TV/AD Production Executive" from Association Name dropdown
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter Association ID
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:And I enter Childhood name
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite childhood friend
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite team
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite player
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter favourite movie
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter first job
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I click on next button
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I click on next button")]
+Thread#0:T:public void ThenIClickOnNextButton()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0:T:no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+Thread#0:T:   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+Thread#0:T:   at FTC.Framework.PageObject.PageObjectLogin.EnterUsername(String username) in D:\workspace\FTC\FTC\FTC.Framework\PageObject\PageObjectLogin.cs:line 35
+Thread#0:T:   at FTC.Test.Steps.RecruiterOnboardingSteps.WhenIEnterLoginIdAs(String username) in D:\workspace\FTC\FTC\FTC.Test\Steps\RecruiterOnboardingSteps.cs:line 26
+Thread#0:T:   at lambda_method(Closure , IContextManager , String )
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature.ScenarioCleanup()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature._1_EnteringAllTheMadantoryFieldsForRecruiter() in D:\workspace\FTC\FTC\FTC.Test\Features\RecruiterOnboarding.feature:line 47
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 163.0803277 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

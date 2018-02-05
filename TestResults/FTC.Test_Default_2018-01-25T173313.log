@@ -1,0 +1,65 @@
+﻿2018-01-25T17:33:13.0248588+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-25T17:33:13.8449057+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-25T17:33:13.8719072+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-25T17:33:13.8739073+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-25T17:33:25.1195506+05:30;Thread#12;Info;Discovering target: Default
+2018-01-25T17:33:25.1205506+05:30;Thread#12;Info;Discovering tests from assembly: D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FTC.Test/Default - 
+#1: Default - 
+#2: FTC.Test - 
+#3: Recruiter onboarding - 
+#4: Editing recruiter on bording - TestAssembly:FTC.Test/Feature:Recruiter+onboarding/Scenario:Editing+recruiter+on+bording
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FTC.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mansi.baokar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario Editing recruiter on bording **** started.
+Thread#0:B:When I perfom log in operation
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field     | Value              |
+Thread#0:B:  | User Name | Marvel@yopmail.com |
+Thread#0:B:  | Password  | 1234               |
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIPerfomLogInOperation(<table>) (0.3s)
+Thread#0:B:Then I successfully logged in
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyLoggedIn() (0.4s)
+Thread#0:B:When I navigate to my profile
+Thread#0:T:done: RecruiterOnboardingSteps.WhenINavigateToMyProfile() (0.7s)
+Thread#0:B:Then I successfully navigate to profile page
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToProfilePage() (0.0s)
+Thread#0:B:When I edit my profile tab
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIEditMyProfileTab() (0.8s)
+Thread#0:B:And I click on next button
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIClickOnNextButton() (4.1s)
+Thread#0:B:Then I successfully navigate to Work experinece tab
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToWorkExperineceTab() (2.1s)
+Thread#0:B:When I Add Work experience
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIAddWorkExperience() (3.1s)
+Thread#0:B:And I click on next button
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIClickOnNextButton() (4.0s)
+Thread#0:B:Then I successfully navigate to Awards and Recognitions tab
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToAwardsAndRecognitionsTab() (0.0s)
+Thread#0:B:When I Add Awards and Recognitions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field       | Value     |
+Thread#0:B:  | Award Title | John Galt |
+Thread#0:B:  | Award For   | 2/2/1902  |
+Thread#0:B:  | Award Year  | 72        |
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIAddAwardsAndRecognitions(<table>) (0.8s)
+Thread#0:B:Then I successfully navigate to Social links tab
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToSocialLinksTab() (0.0s)
+Thread#0:B:When I Add Social links
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Fie

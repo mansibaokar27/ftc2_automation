@@ -1,0 +1,239 @@
+﻿2018-01-25T17:41:33.1604649+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-25T17:41:33.2914724+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-25T17:41:33.2914724+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-25T17:41:33.2924724+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-25T17:41:38.3667627+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-25T17:41:38.3667627+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-25T17:42:38.3261922+05:30;VSTestExecutionThread;Info;Log file: file:///D:\workspace\FTC\FTC\TestResults\FTC.Test_Default_2018-01-25T174133.log
+2018-01-25T17:42:38.3271922+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-25T17:54:04.1794207+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-25T17:54:04.1914214+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-25T17:54:04.1914214+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+2018-01-25T17:54:04.1924215+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-01-25T17:54:12.1958792+05:30;Thread#20;Info;Discovering target: Default
+2018-01-25T17:54:12.1988794+05:30;Thread#20;Info;Discovering tests from assembly: D:\workspace\FTC\FTC\FTC.Test\bin\Debug\FTC.Test.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FTC.Test/Default - 
+#1: Default - 
+#2: FTC.Test - 
+#3: Recruiter onboarding - 
+#4: Editing recruiter on bording - TestAssembly:FTC.Test/Feature:Recruiter+onboarding/Scenario:Editing+recruiter+on+bording
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for FTC.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\mansi.baokar\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario Editing recruiter on bording **** started.
+Thread#0:B:When I perfom log in operation
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field     | Value              |
+Thread#0:B:  | User Name | Marvel@yopmail.com |
+Thread#0:B:  | Password  | 1234               |
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIPerfomLogInOperation(<table>) (0.3s)
+Thread#0:B:Then I successfully logged in
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyLoggedIn() (0.4s)
+Thread#0:B:When I navigate to my profile
+Thread#0:T:done: RecruiterOnboardingSteps.WhenINavigateToMyProfile() (0.6s)
+Thread#0:B:Then I successfully navigate to profile page
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToProfilePage() (0.0s)
+Thread#0:B:When I edit my profile tab
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIEditMyProfileTab() (0.8s)
+Thread#0:B:And I click on next button
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIClickOnNextButton() (4.1s)
+Thread#0:B:Then I successfully navigate to Work experinece tab
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToWorkExperineceTab() (2.7s)
+Thread#0:B:When I Add Work experience
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIAddWorkExperience() (2.9s)
+Thread#0:B:And I click on next button
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIClickOnNextButton() (4.0s)
+Thread#0:B:Then I successfully navigate to Awards and Recognitions tab
+Thread#0:T:done: RecruiterOnboardingSteps.ThenISuccessfullyNavigateToAwardsAndRecognitionsTab() (2.1s)
+Thread#0:B:When I Add Awards and Recognitions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field       | Value     |
+Thread#0:B:  | Award Title | John Galt |
+Thread#0:B:  | Award For   | 2/2/1902  |
+Thread#0:B:  | Award Year  | 72        |
+Thread#0:T:done: RecruiterOnboardingSteps.WhenIAddAwardsAndRecognitions(<table>) (0.8s)
+Thread#0:B:Then I successfully navigate to Social links tab
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:60795/session/09a28d260a07ce86d27d90a8e3b9b25e/element timed out after 60 seconds.
+Thread#0:B:When I Add Social links
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field        | Value             |
+Thread#0:B:  | Facbook      | www.facebook.com  |
+Thread#0:B:  | Twitter      | www.twitter.com   |
+Thread#0:B:  | Instagram    | www.instagram.com |
+Thread#0:B:  | Youtube      | www.youtube.com   |
+Thread#0:B:  | Website link | www.ftc.com       |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Associations tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add Associations
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field           | Value  |
+Thread#0:B:  | Assosication ID | 125634 |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Security Questions  tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add  Security Questions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field                           | Value  |
+Thread#0:B:  | Your childhood nicknam          | Chintu |
+Thread#0:B:  | Your favourite childhood friend | Rohit  |
+Thread#0:B:  | Your favourite team             | India  |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to dashboard
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0:T:The HTTP request to the remote WebDriver server for URL http://localhost:60795/session/09a28d260a07ce86d27d90a8e3b9b25e/element timed out after 60 seconds.
+Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByClassName(String className)
+Thread#0:T:   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__0(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+Thread#0:T:   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+Thread#0:T:   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+Thread#0:T:   at FTC.Framework.PageObject.SocialLinksPage.verifysocialpage() in D:\workspace\FTC\FTC\FTC.Framework\PageObject\PageObjectSocialLinksPage.cs:line 97
+Thread#0:T:   at FTC.Test.Steps.RecruiterOnboardingSteps.ThenISuccessfullyNavigateToSocialLinksTab() in D:\workspace\FTC\FTC\FTC.Test\Steps\RecruiterOnboardingSteps.cs:line 320
+Thread#0:T:   at lambda_method(Closure , IContextManager )
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+Thread#0:T:   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature.ScenarioCleanup()
+Thread#0:T:   at FTC.Test.Features.RecruiterOnboardingFeature.EditingRecruiterOnBording() in D:\workspace\FTC\FTC\FTC.Test\Features\RecruiterOnboarding.feature:line 44
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+Thread#0:T:   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.ExecuteTestNodeTask(TestNode testNode, ITaskExecutor task, TraceEventType eventType)
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 116.9576896 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:T:Is Driver null :: False
+Thread#0:T:**** Scenario Editing recruiter on bording **** started.
+Thread#0:B:When I perfom log in operation
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field     | Value              |
+Thread#0:B:  | User Name | Marvel@yopmail.com |
+Thread#0:B:  | Password  | 1234               |
+Thread#0:T:error: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:B:Then I successfully logged in
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I navigate to my profile
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to profile page
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I edit my profile tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Work experinece tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add Work experience
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Awards and Recognitions tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add Awards and Recognitions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field       | Value     |
+Thread#0:B:  | Award Title | John Galt |
+Thread#0:B:  | Award For   | 2/2/1902  |
+Thread#0:B:  | Award Year  | 72        |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Social links tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add Social links
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field        | Value             |
+Thread#0:B:  | Facbook      | www.facebook.com  |
+Thread#0:B:  | Twitter      | www.twitter.com   |
+Thread#0:B:  | Instagram    | www.instagram.com |
+Thread#0:B:  | Youtube      | www.youtube.com   |
+Thread#0:B:  | Website link | www.ftc.com       |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Associations tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add Associations
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field           | Value  |
+Thread#0:B:  | Assosication ID | 125634 |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to Security Questions  tab
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I Add  Security Questions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Field                           | Value  |
+Thread#0:B:  | Your childhood nicknam          | Chintu |
+Thread#0:B:  | Your favourite childhood friend | Rohit  |
+Thread#0:B:  | Your favourite team             | India  |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on next button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I successfully navigate to dashboard
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0:T:no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=63.0.3239.132)
+Thread#0:T:  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+Thread#0:T:   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+Thread#0:T:   at FTC.Framework.PageObject.PageObjectLogin.EnterUsername(String username) in D:\workspace\FTC\FTC\FTC.Framework\PageObject\PageObjectLogin.cs:line 37
+Thread#0:T:   at FTC.Test.Steps.RecruiterOnboardingSteps.WhenIPerfomLogInOperation(Table table) in D:\workspace\FTC\FTC\FTC.Test\Steps\RecruiterOnboardingSteps.cs:line 250
+Thread#0:T:   at lambda_method(Closure , IContextManager , Table )
+Thread#0:T:   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+Thread#0:T:   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.Execute
