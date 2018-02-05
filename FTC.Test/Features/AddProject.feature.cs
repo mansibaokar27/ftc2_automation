@@ -80,22 +80,20 @@ this.ScenarioSetup(scenarioInfo);
 #line 4
 testRunner.When("I perfom log in operation", ((string)(null)), table1, "When ");
 #line 8
-testRunner.Then("I successfully logged in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("I successfully logged and naviagte to dashboard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 9
-testRunner.When("I navigate to admin dashboard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 10
 testRunner.When("I click on Manage Projects tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 11
+#line 10
 testRunner.Then("I navigate to Manage Projects page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 12
+#line 11
 testRunner.When("I click on Add Project button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 13
+#line 12
 testRunner.Then("I navigate to Manage project page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 14
+#line 13
 testRunner.When("I enter create project details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 15
+#line 14
 testRunner.And("I click on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 16
+#line 15
 testRunner.Then("I should be able to create the project", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

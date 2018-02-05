@@ -80,22 +80,20 @@ this.ScenarioSetup(scenarioInfo);
 #line 5
 testRunner.When("I perfom log in operation", ((string)(null)), table1, "When ");
 #line 9
-testRunner.Then("I successfully logged in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("I successfully logged and naviagte to admin dashboard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 10
-testRunner.And("I successfully navigate to admin dashboard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 11
 testRunner.When("I click on Manage Contest tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 12
+#line 11
 testRunner.Then("I successfully naviagte to Manage contest page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 13
+#line 12
 testRunner.When("I click on Add Contest button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 14
+#line 13
 testRunner.Then("I successfully navigate to create contest page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 15
+#line 14
 testRunner.When("I enter details of create contest", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 16
+#line 15
 testRunner.And("I click on save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 17
+#line 16
 testRunner.Then("I should able to save contest", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

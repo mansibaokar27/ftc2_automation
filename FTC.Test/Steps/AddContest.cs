@@ -15,7 +15,7 @@ namespace FTC.Test.Steps
     public class AddContest
     {
         #region
-        [Then(@"I successfully navigate to admin dashboard")]
+        [Then(@"I successfully logged and naviagte to admin dashboard")]
         public void ThenISuccessfullyNavigateToAdminDashboard()
         {
             ScenarioContext.Current.Pending();

@@ -6,8 +6,7 @@ When I perfom log in operation
 | Field     | Value             |
 | User Name | ftc@fthecouch.com |
 | Password  | 1234              |
-Then I successfully logged in
-And  I successfully navigate to admin dashboard
+Then I successfully logged and naviagte to admin dashboard
 When I click on Manage Contest tab
 Then I successfully naviagte to Manage contest page
 When I click on Add Contest button

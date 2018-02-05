@@ -5,8 +5,7 @@ When I perfom log in operation
 | Field     | Value             |
 | User Name | ftc@fthecouch.com |
 | Password  | 1234              |
-Then I successfully logged in
-When I navigate to admin dashboard
+Then I successfully logged and naviagte to dashboard
 When I click on Manage Projects tab
 Then I navigate to Manage Projects page
 When I click on Add Project button

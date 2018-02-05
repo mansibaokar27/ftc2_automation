@@ -95,6 +95,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddProject.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\BlockUser.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlockUser.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\RecruiterOnboarding.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -124,6 +129,10 @@
     <None Include="Features\AddProject.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddProject.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\BlockUser.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BlockUser.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\RecruiterOnboarding.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

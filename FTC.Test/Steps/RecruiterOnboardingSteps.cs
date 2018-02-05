@@ -252,7 +252,7 @@ namespace FTC.Test.Steps
             Objects.poLogin.ClickLogin();
         }
 
-        [Then(@"I successfully logged in")]
+        [Then(@"I successfully logged and naviagte to dashboard")]
         public void ThenISuccessfullyLoggedIn()
         {
             Objects.poDashboard.verifylogin();
