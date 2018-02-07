@@ -6,7 +6,7 @@ When I perfom log in operation
 | Field     | Value              |
 | User Name | Marvel@yopmail.com |
 | Password  | 1234               |
-Then I successfully logged in
+Then I successfully logged in as recruiter
 When I navigate to my profile
 Then I successfully navigate to profile page
 When I edit my profile tab 
