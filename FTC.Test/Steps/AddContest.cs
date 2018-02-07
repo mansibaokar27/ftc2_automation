@@ -15,54 +15,69 @@ namespace FTC.Test.Steps
     public class AddContest
     {
         #region
-        [Then(@"I successfully logged and naviagte to admin dashboard")]
-        public void ThenISuccessfullyNavigateToAdminDashboard()
-        {
-            ScenarioContext.Current.Pending();
-        }
-
-        [When(@"I click on Manage Contest tab")]
+        [When(@"I click on Manage Contest  tab")]
         public void WhenIClickOnManageContestTab()
         {
-           // ScenarioContext.Current.Pending();
+            Objects.poManageContest.SelectManageContest();
         }
 
-        [Then(@"I successfully naviagte to Manage contest page")]
+        [Then(@"I successfully naviagte to Manage contest  page")]
         public void ThenISuccessfullyNaviagteToManageContestPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.VerifyManageContestPage();
         }
 
-        [When(@"I click on Add Contest button")]
+        [When(@"I click on Add Contest  button")]
         public void WhenIClickOnAddContestButton()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.CreateContest();
         }
 
-        [Then(@"I successfully navigate to create contest page")]
+        [Then(@"I successfully navigate to create contest  page")]
         public void ThenISuccessfullyNavigateToCreateContestPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.VerifyCreateContestPage();
         }
 
-        [When(@"I enter details of create contest")]
+        [When(@"I enter details of  create  contest")]
         public void WhenIEnterDetailsOfCreateContest()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.SelectCompanyName();
+            Objects.poManageContest.EnterContestTitle();
+            Objects.poManageContest.SelectContestType();
+            Objects.poManageContest.SelectFileType();
+            Objects.poManageContest.SelectContestStartDate();
+            Objects.poManageContest.SelectContestEndDate();
+            Objects.poManageContest.EnterContestlandingPage();
+            Objects.poManageContest.SaveKeyDetailsAndContinue();
+            Objects.poManageContest.EnterShortDescription();
+            Objects.poManageContest.EnterLongDescription();
+            Objects.poManageContest.EnterCreativeDescription();
+            Objects.poManageContest.EnterGratification();
+            Objects.poManageContest.UploadAsset();
+            Objects.poManageContest.EnterNumberOfWinningPosition();
+            Objects.poManageContest.CheckIfNeedsValidation();
+            Objects.poManageContest.EnterLinkToCheckParticipationCode();
+            Objects.poManageContest.EnterTermsAndContion();
+            Objects.poManageContest.SaveBriefAndContinue();
+            Objects.poManageContest.UploadCompanyBanner();
+            //Objects.poManageContest.SelectTextColorForBanner();
+            Objects.poManageContest.UploadThumnail();
         }
 
-        [When(@"I click on save button")]
+        [When(@"I click on save  button")]
         public void WhenIClickOnSaveButton()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.SaveDesign();
         }
 
-        [Then(@"I should able to save contest")]
+        [Then(@"I should able to  save  contest")]
         public void ThenIShouldAbleToSaveContest()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poManageContest.VerifyTheCreatedContest();
         }
 
         #endregion
+
     }
 }

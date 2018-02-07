@@ -45,6 +45,7 @@ namespace FTC.Framework.Utils
             // Navigating to URL
            // string s = ConfigurationManager.AppSettings["ApplicationURL"];
             Driver.Navigate("http://eac7q5systest.fthecouch.com/portal/");
+           // Driver.Navigate("http://eac7q5systest.fthecouch.com/portal/a9hj6alu/admin");
 
             #endregion
 

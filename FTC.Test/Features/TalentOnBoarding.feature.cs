@@ -73,14 +73,14 @@ this.ScenarioSetup(scenarioInfo);
                         "Value"});
             table1.AddRow(new string[] {
                         "User Name",
-                        "pari@yopmail.com"});
+                        "alia@yopmail.com"});
             table1.AddRow(new string[] {
                         "Password",
                         "1234"});
 #line 4
-testRunner.When("I perfom log in operation", ((string)(null)), table1, "When ");
+testRunner.When("I perform Login operation as talent", ((string)(null)), table1, "When ");
 #line 8
-testRunner.Then("I successfully logged in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("I successfully logged in as talent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 9
 testRunner.When("I click on Edit profile button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
@@ -121,6 +121,28 @@ testRunner.When("I edit media page", ((string)(null)), ((TechTalk.SpecFlow.Table
 testRunner.And("I click on next button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 28
 testRunner.Then("I successfully navigate to Experience page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 29
+testRunner.When("I edit Experience page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 30
+testRunner.And("I click on next button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 31
+testRunner.Then("I successfully navigate to Education page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 32
+testRunner.When("I edit Education page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 33
+testRunner.And("I click on next button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 34
+testRunner.Then("I succesfully navigate to Additional page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 35
+testRunner.When("I edit Additional page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 36
+testRunner.And("I click on next button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 37
+testRunner.Then("I successfully navigate to profile completion page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 38
+testRunner.When("I click on view dashboard button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 39
+testRunner.Then("I successfully navigate to talent dashboard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

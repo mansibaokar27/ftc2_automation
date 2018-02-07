@@ -106,11 +106,6 @@ namespace FTC.Framework.PageObject
           
         }
 
-        public void SelectNext()
-        {
-            btnNext.Submit();
-        }
-
         public void verifyAssosicationExppage()
         {
             iWait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("mat-select-value-text")));

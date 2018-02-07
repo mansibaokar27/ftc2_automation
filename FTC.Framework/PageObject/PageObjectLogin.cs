@@ -28,10 +28,11 @@ namespace FTC.Framework.PageObject
         By txtPassword = By.CssSelector("input[formcontrolname='password']");
       //  By btnLogin = By.CssSelector("btn btn-danger dashboard-btn waves-effect waves-light");
         By btnLogin = By.CssSelector("div.login-btn-grp > input");
+        By txtAdminUsername = By.CssSelector("input[formcontrolname='emailId']");
         //
         #endregion
 
-    
+
         public void EnterUsername(String username)
         {
             driver.FindElement(txtUsername).SendKeys(username);
@@ -46,6 +47,11 @@ namespace FTC.Framework.PageObject
         {
             IWebElement w = driver.FindElement(btnLogin);
             w.Click();
-       }
+        }
+
+        public void EnterAdminUserName(String username)
+        {
+            driver.FindElement(txtAdminUsername).SendKeys(username);
+        }
     }
 }
