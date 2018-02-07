@@ -80,7 +80,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 5
 testRunner.When("I perfom log in operation", ((string)(null)), table1, "When ");
 #line 9
-testRunner.Then("I successfully logged in", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("I successfully logged in as recruiter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 10
 testRunner.When("I navigate to my profile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
