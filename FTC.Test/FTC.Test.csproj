@@ -95,6 +95,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddProject.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\AdminPushTalentManually.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminPushTalentManually.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\BlockUser.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -129,6 +134,10 @@
     <None Include="Features\AddProject.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>AddProject.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\AdminPushTalentManually.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AdminPushTalentManually.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\BlockUser.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

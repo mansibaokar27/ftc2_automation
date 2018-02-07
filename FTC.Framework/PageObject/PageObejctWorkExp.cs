@@ -47,7 +47,15 @@ namespace FTC.Framework.PageObject
 
        [FindsBy(How = How.CssSelector, Using = "[placeholder|='*Year']")]
        private IWebElement tbYear;
-       
+
+        //[FindsBy(How = How.ClassName, Using = "btn-save-continue")]
+        //private IList<IWebElement> btnSaveContestForm;
+
+        //public void ClickOnCotestFormSave()
+        //{
+        //    btnSaveContestForm[1].Click();
+        //}
+
         public void ClickWorkExTab()
         {
             titleWorkExperience.Click();

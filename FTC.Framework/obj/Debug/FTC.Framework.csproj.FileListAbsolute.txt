@@ -44,3 +44,6 @@ D:\automation-manasi\FTC.Framework\bin\Debug\WebDriver.Support.xml
 D:\automation-manasi\FTC.Framework\obj\Debug\FTC.Framework.csprojResolveAssemblyReference.cache
 D:\automation-manasi\FTC.Framework\obj\Debug\FTC.Framework.dll
 D:\automation-manasi\FTC.Framework\obj\Debug\FTC.Framework.pdb
+D:\ftc2_automation\FTC.Framework\obj\Debug\FTC.Framework.csprojResolveAssemblyReference.cache
+D:\ftc2_automation\FTC.Framework\obj\Debug\FTC.Framework.dll
+D:\ftc2_automation\FTC.Framework\obj\Debug\FTC.Framework.pdb

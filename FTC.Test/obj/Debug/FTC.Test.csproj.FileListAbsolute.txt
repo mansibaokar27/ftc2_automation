@@ -93,3 +93,4 @@ D:\ftc2_automation\FTC.Test\bin\Debug\WebDriver.xml
 D:\ftc2_automation\FTC.Test\bin\Debug\WebDriver.Support.xml
 D:\ftc2_automation\FTC.Test\obj\Debug\FTC.Test.dll
 D:\ftc2_automation\FTC.Test\obj\Debug\FTC.Test.pdb
+D:\ftc2_automation\FTC.Test\obj\Debug\FTC.Test.csprojResolveAssemblyReference.cache
