@@ -12,7 +12,6 @@ When I edit personal details tab
 And  I click on next button
 Then I successfully navigate to Talent page
 When I edit Talent page
-And  I click on next button
 Then I successfully navigate to Interest page
 When I edit Interest page
 And  I click on next button
@@ -21,7 +20,6 @@ When I edit skill page
 And  I click on next button
 Then I successfully navigate to Attributes page
 When I edit Attributes page
-And  I click on next button
 Then I successfully navigate to Media page
 When I edit media page
 And  I click on next button

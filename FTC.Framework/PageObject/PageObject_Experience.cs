@@ -107,7 +107,7 @@ namespace FTC.Framework.PageObjects
         public void SelectSkillType()
         {
             ddSkillType.Click();
-            iWait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("#cdk-overlay-1 > div > div")));
+            iWait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.cdk-overlay-pane> div > div")));
             ddSelectSkillType[3].Click();
         }
 

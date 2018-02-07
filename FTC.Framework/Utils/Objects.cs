@@ -55,7 +55,15 @@ namespace FTC.Framework.Utils
 
         public static PageObject_Education poEducation { get; set; }
 
+        public static PageObjectAttributes poAttributes { get; set; }
 
+        public static PageObjectInterests poInterests { get; set; }
+
+        public static PageObjectMedia poMedia { get; set; }
+
+        public static PageObjectSkills poSkills { get; set; }
+
+        public static PageObjectTalent poTalent { get; set; }
 
 
         public void ObjectInitialization()
@@ -92,6 +100,16 @@ namespace FTC.Framework.Utils
             poEducation = new PageObject_Education(driver, iWait);
 
             poAdditional = new PageObject_Additional(driver, iWait);
+
+            poAttributes = new PageObjectAttributes(driver, iWait);
+
+            poMedia = new PageObjectMedia(driver, iWait);
+
+            poSkills = new PageObjectSkills(driver, iWait);
+
+            poTalent = new PageObjectTalent(driver, iWait);
+
+            poInterests = new PageObjectInterests(driver, iWait);
 
             // poSelectionQaConfig = new Page_Object_SelectionQA_Config(driver, iWait);
 

@@ -145,6 +145,9 @@ namespace FTC.Framework.PageObjects
         [FindsBy(How = How.CssSelector, Using = "#complete > form > ul > li > button.btn.onboarding-step.skip-step")]
         public IWebElement btnSkip { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = "[href='/portal/talent/dashboard']")]
+        public IWebElement btnViewDashboard;
+
 
         public void HitAdditionalTab()
         {
@@ -296,12 +299,14 @@ namespace FTC.Framework.PageObjects
 
         public void EnterMinimumCompensation()
         {
+            txtMinimumCompensation.Clear();
             txtMinimumCompensation.SendKeys("1000");
         }
 
         public void EnterMaximumCompensation()
         {
-            txtMaximumCompensation.SendKeys("10,000");
+            txtMaximumCompensation.Clear();
+            txtMaximumCompensation.SendKeys("100000");
         }
 
         public void HitSecurityQuestionTab()
@@ -340,6 +345,26 @@ namespace FTC.Framework.PageObjects
         public void SelectSkip()
         {
             btnSkip.Click();
+        }
+
+        public void VerifyCompletedProfilePage()
+        {
+            Thread.Sleep(3000);
+            iWait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.profile-view-dash.login-success.onboarding-success-box")));
+            Thread.Sleep(2000);
+            string profileCompletion = driver.FindElement(By.CssSelector(" div.profile-view-dash.login-success.onboarding-success-box > h4")).Text;
+            Assert.AreEqual("Thank you for completing your profile. Your profile is 100 % complete.", profileCompletion);
+        }
+
+        public void HitOnViewDashboard()
+        {
+            btnViewDashboard.Click();
+        }
+
+        public void VerifyTheTalentDashboardPage()
+        {
+            Assert.AreEqual(true, driver.FindElement(By.CssSelector("[routerlink = '/jobs/applied']")).Enabled);
+
         }
 
     }

@@ -42,61 +42,76 @@ namespace FTC.Test.Steps
         [Then(@"I successfully navigate to Talent page")]
         public void ThenISuccessfullyNavigateToTalentPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poTalent.ValidateTalent();
         }
 
         [When(@"I edit Talent page")]
         public void WhenIEditTalentPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poTalent.SelectTalent();
+            Objects.poInterests.ClickInterestTab();
         }
 
         [Then(@"I successfully navigate to Interest page")]
         public void ThenISuccessfullyNavigateToInterestPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poInterests.ValidateInterests();
         }
 
         [When(@"I edit Interest page")]
         public void WhenIEditInterestPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poInterests.SelectInterest();
+            //Objects.poSkills.ClickSkillsTab();
         }
 
         [Then(@"I successfully navigate to skills page")]
         public void ThenISuccessfullyNavigateToSkillsPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poSkills.ValidateSkills();
         }
 
         [When(@"I edit skill page")]
         public void WhenIEditSkillPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poSkills.SelectPerformerSkills();
+            Objects.poSkills.SelectLanguagesSpoke();
+            //Objects.poAttributes.ClickAttributesTab();
         }
 
         [Then(@"I successfully navigate to Attributes page")]
         public void ThenISuccessfullyNavigateToAttributesPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poAttributes.ValidateAttributes();
         }
 
         [When(@"I edit Attributes page")]
         public void WhenIEditAttributesPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poAttributes.SelectWeight();
+            Objects.poAttributes.SelectHeight();
+           // Objects.poAttributes.SelectChest();
+            //Objects.poAttributes.SelectBodyType();
+            //Objects.poAttributes.SelectEthnicity();
+            Objects.poMedia.ClickMediaTab();
         }
 
         [Then(@"I successfully navigate to Media page")]
         public void ThenISuccessfullyNavigateToMediaPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poMedia.ValidateMedia();
         }
 
         [When(@"I edit media page")]
         public void WhenIEditMediaPage()
         {
-            ScenarioContext.Current.Pending();
+            Objects.poMedia.UploadPic();
+            Objects.poMedia.SwitchToVideoTab();
+            Objects.poMedia.UploadVid();
+            Objects.poMedia.SwitchToScriptTab();
+            Objects.poMedia.UploadScript();
+            Objects.poMedia.SwitchToAudioTab();
+            Objects.poMedia.UploadAudio();
         }
 
         [Then(@"I successfully navigate to Experience page")]
@@ -185,5 +200,25 @@ namespace FTC.Test.Steps
             Objects.poAdditional.HitAboutMeTab();
             Objects.poAdditional.EnterAboutMe();
         }
+        [Then(@"I successfully navigate to profile completion page")]
+        public void ThenISuccessfullyNavigateToProfileCompletionPage()
+        {
+            Objects.poAdditional.VerifyCompletedProfilePage();
+        }
+
+        [When(@"I click on view dashboard button")]
+        public void WhenIClickOnViewDashboardButton()
+        {
+            Objects.poAdditional.HitOnViewDashboard();
+        }
+
+        [Then(@"I successfully navigate to talent dashboard")]
+        public void ThenISuccessfullyNavigateToTalentDashboard()
+        {
+            Objects.poAdditional.VerifyTheTalentDashboardPage();
+        }
+
+
+
     }
 }
