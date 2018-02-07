@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using FTC.Framework.Utils;
+using FTC.Framework.PageObjects;
 //using FTC.Framework.Web_Pages;
 //using FTC.Framework.PageObject.Report;
 
@@ -42,6 +43,21 @@ namespace FTC.Framework.Utils
 
         public static PageObject_SecurityQuestions posecurityquestions { get; set; }
 
+        public static PageObjectManageContest poManageContest { get; set; }
+
+        public static PageObjectManageProject poManageProject { get; set; }
+
+        public static PageObjectPersonalDetails poPersonalDetail { get; set; }
+
+        public static PageObject_Experience poExperience { get; set; }
+
+        public static PageObject_Additional poAdditional { get; set; }
+
+        public static PageObject_Education poEducation { get; set; }
+
+
+
+
         public void ObjectInitialization()
         {
 
@@ -64,6 +80,19 @@ namespace FTC.Framework.Utils
             poassosication = new PageObject_Association(driver, iWait);
 
             posecurityquestions = new PageObject_SecurityQuestions(driver, iWait);
+
+            poManageContest = new PageObjectManageContest(driver, iWait);
+
+            poManageProject = new PageObjectManageProject(driver, iWait);
+
+            poPersonalDetail = new PageObjectPersonalDetails(driver, iWait);
+
+            poExperience = new PageObject_Experience(driver, iWait);
+
+            poEducation = new PageObject_Education(driver, iWait);
+
+            poAdditional = new PageObject_Additional(driver, iWait);
+
             // poSelectionQaConfig = new Page_Object_SelectionQA_Config(driver, iWait);
 
             Logger.log.Info("Object Initialization is completed.");
